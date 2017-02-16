@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentsAPI", "ShipmentsAPI\ShipmentsAPI.csproj", "{E701A755-2CD2-4CD5-B04C-D0E4195D26E4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E701A755-2CD2-4CD5-B04C-D0E4195D26E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E701A755-2CD2-4CD5-B04C-D0E4195D26E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E701A755-2CD2-4CD5-B04C-D0E4195D26E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E701A755-2CD2-4CD5-B04C-D0E4195D26E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
