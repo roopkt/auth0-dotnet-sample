@@ -12,6 +12,7 @@ namespace ShipmentsAPI
     {
         public void ConfigureAuthZero(IAppBuilder app)
         {
+          
             var issuer = "https://" + ConfigurationManager.AppSettings["auth0:Domain"] + "/";
             var audience = ConfigurationManager.AppSettings["auth0:ClientId"];
             var secret =
@@ -22,7 +23,7 @@ namespace ShipmentsAPI
             {
                 AuthenticationMode =  AuthenticationMode.Active,
                 AllowedAudiences = new []{audience},
-                IssuerSecurityTokenProviders = new List<IIssuerSecurityTokenProvider> { new SymmetricKeyIssuerSecurityTokenProvider(issuer,secret)
+                IssuerSecurityTokenProviders = new [] { new SymmetricKeyIssuerSecurityTokenProvider(issuer,secret)
                 }
             });
         }
