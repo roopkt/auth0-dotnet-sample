@@ -1,6 +1,4 @@
-﻿
-using System.Collections.Generic;
-using System.Configuration;
+﻿using System.Configuration;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.DataHandler.Encoder;
 using Microsoft.Owin.Security.Jwt;
