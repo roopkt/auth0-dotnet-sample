@@ -7,7 +7,7 @@ namespace ShipmentsAPI
         public static void Register(HttpConfiguration config)
         {
             config.MapHttpAttributeRoutes();
-            config.Routes.MapHttpRoute(name: "DefaultAip", routeTemplate: "api/{controller}/{id}",
+            config.Routes.MapHttpRoute(name: "DefaultApi", routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
         }
     }

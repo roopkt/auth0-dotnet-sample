@@ -12,8 +12,11 @@ namespace ShipmentsAPI
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
+         
             WebApiConfig.Register(config);
+            
             ConfigureAuthZero(app);
+            
             app.UseCors(CorsOptions.AllowAll);
             app.UseWebApi(config);
         }
